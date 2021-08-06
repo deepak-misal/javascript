@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>color picker-1</title>
+    </head>
+    <body>
+        <label for="color">Color: </label><input type="text" name="color" size="20" id="color" />
+        <button type="button" onClick="changeBGC(color.value)">Submit</button>
+        <script>
+            function changeBGC(color){
+    document.bgColor = color;
+}
+        </script>
+    </body>
+</html>
